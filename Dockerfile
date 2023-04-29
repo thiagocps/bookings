@@ -3,4 +3,3 @@ WORKDIR /app
 COPY . /app/
 ENTRYPOINT ["java", "-jar", "booking-0.0.1-SNAPSHOT.jar"]
 EXPOSE 2424
-CMD ls
