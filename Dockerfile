@@ -1,6 +1,6 @@
-from openjdk:12-alpine
+FROM openjdk:17-oracle
 MAINTAINER github/thiagocps
 COPY ./target/booking-0.0.1-SNAPSHOT.jar /app/booking-0.0.1-SNAPSHOT.jar
 WORKDIR /app
-CMD ["java", "-jar", "booking-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "booking-0.0.1-SNAPSHOT.jar"]
 EXPOSE 8080
