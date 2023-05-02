@@ -22,4 +22,5 @@
 /Users/tcampos/eclipse-workspace/booking/src/main/java/com/campos/thiago/booking/entity/Host.java
 /Users/tcampos/eclipse-workspace/booking/src/main/java/com/campos/thiago/booking/BookingApplication.java
 /Users/tcampos/eclipse-workspace/booking/src/main/java/com/campos/thiago/booking/to/BookingDatesTO.java
+/Users/tcampos/eclipse-workspace/booking/src/main/java/com/campos/thiago/booking/config/CorsConfig.java
 /Users/tcampos/eclipse-workspace/booking/src/main/java/com/campos/thiago/booking/exception/HostNotFoundException.java

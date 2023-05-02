@@ -17,6 +17,7 @@ com/campos/thiago/booking/repository/BookingRepository.class
 com/campos/thiago/booking/config/JacksonConfiguration.class
 com/campos/thiago/booking/controller/LoadController.class
 com/campos/thiago/booking/repository/HostRepository.class
+com/campos/thiago/booking/config/CorsConfig.class
 com/campos/thiago/booking/repository/PropertyRepository.class
 com/campos/thiago/booking/exception/BookingNotFoundException.class
 com/campos/thiago/booking/entity/Host.class

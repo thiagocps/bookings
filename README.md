@@ -13,7 +13,6 @@ In this project, I used:
 * Unit Tests
 * Maven
 * Java 17
-* Docker
 
 # Getting Started
 
@@ -21,11 +20,10 @@ In this project, I used:
 mvn spring-boot:run
 
 ### URLs available
-* For documentation: https://bookings-prthiagocps.b4a.run/swagger-ui/index.html
-* For access the database: https://bookings-prthiagocps.b4a.run//h2-ui
-* For a initial data in the database: https://bookings-prthiagocps.b4a.run/v1/load
-* For list all bookings: (GET) https://bookings-prthiagocps.b4a.run//v1/bookings
-* For select a specific booking: (GET) https://bookings-prthiagocps.b4a.run//v1/bookings/{id}
-* For insert a new booking: (POST) https://bookings-prthiagocps.b4a.run//v1/bookings
-* For update a booking: (PUT) https://bookings-prthiagocps.b4a.run//v1/bookings/{id}
-* For delete a booking: (DELETE) https://bookings-prthiagocps.b4a.run//v1/bookings/{id}
+* For documentation: http://localhost:8080/swagger-ui.html
+* For access the database: http://localhost:8080/h2-ui
+* For list all bookings: (GET) http://localhost:8080/v1/bookings
+* For select a specific booking: (GET) http://localhost:8080/v1/bookings/{id}
+* For insert a new booking: (POST) http://localhost:8080/v1/bookings
+* For update a booking: (PUT) http://localhost:8080/v1/bookings/{id}
+* For delete a booking: (DELETE) http://localhost:8080/v1/bookings/{id}
