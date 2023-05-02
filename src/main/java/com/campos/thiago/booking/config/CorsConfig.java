@@ -12,6 +12,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
         registry.addMapping("/**")
                 .allowedOrigins(
+                        "http://bookings-prthiagocps.b4a.run:8080",
                         "https://bookings-prthiagocps.b4a.run:8080")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD")
                 .allowCredentials(true)

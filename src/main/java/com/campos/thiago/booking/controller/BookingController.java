@@ -29,7 +29,7 @@ import com.campos.thiago.booking.to.BookingTO;
 import jakarta.validation.Valid;
 
 
-@CrossOrigin(origins = "https://bookings-prthiagocps.b4a.run:8081")
+@CrossOrigin(origins = "http://bookings-prthiagocps.b4a.run:8081")
 @RestController
 @RequestMapping("/v1")
 public class BookingController {
